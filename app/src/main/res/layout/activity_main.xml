@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res-auto
+    xmlns:android="xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="18dp"/>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:layout_marginHorizontal="18dp"/>
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_marginHorizontal="18dp"/>
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:layout_marginHorizontal="18dp"/>
+
+    <Button
+        android:id="@+id/one_sec_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1sec"
+        android:layout_marginHorizontal="18dp"
+
+        <Button
+            android:id="@+id/five_sec_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5sec"
+            android:layout_marginHorizontal="18dp"
+
+            <Button
+                android:id="@+id/ten_sec_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10sec"
+                android:layout_marginHorizontal="18dp"/>
+</LinearLayout>
+
+
